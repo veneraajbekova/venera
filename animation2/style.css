@@ -1,0 +1,51 @@
+ @keyframes  otder{
+    from {
+        transform: translate(-50%,-50%)rotate(0degt)translateX(150%)rotate(0deg);
+    }
+    to{
+        transform: translate(-50%,-50%)rotate(380deg)translateX(150%)rotate(-360deg);
+    } 
+ }
+   
+ .wrap{
+    width: 500px;
+    height: 500px;
+    border: 3px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://png.pngtree.com/thumb_back/fw800/background/20220511/pngtree-abstract-background-with-stars-as-template-or-design-element-for-starry-image_1308447.jpg);
+    position: relative;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    
+}
+.box img{
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    align-content: center;
+}
+.box2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 100px;
+    border-radius: 50%;
+    
+    animation: boxAnimation 1s linear infinite;
+    
+}
+.box2 img{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20220511/pngtree-abstract-background-with-stars-as-template-or-design-element-for-starry-image_1308447.jpg);
+    width: 100px;
+    height: 100px;
+    animation-timing-function: linear;
+    animation: orbit 4s linear infinite;
+    animation-iteration-count: infinite;
+    
+}
+
